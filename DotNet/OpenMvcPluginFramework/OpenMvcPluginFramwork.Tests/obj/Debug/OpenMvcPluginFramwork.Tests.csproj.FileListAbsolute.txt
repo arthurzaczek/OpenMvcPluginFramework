@@ -1,0 +1,17 @@
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.dll
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.pdb
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.dll
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.pdb
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.dll
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.pdb
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.dll
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.pdb
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.csprojResolveAssemblyReference.cache
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.dll
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.pdb
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.dll
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.pdb
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.dll
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\bin\Debug\OpenMvcPluginFramwork.Tests.pdb
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.dll
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramwork.Tests\obj\Debug\OpenMvcPluginFramwork.Tests.pdb

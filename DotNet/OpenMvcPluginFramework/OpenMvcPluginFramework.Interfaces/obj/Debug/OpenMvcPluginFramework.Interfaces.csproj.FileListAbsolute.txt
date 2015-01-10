@@ -1,0 +1,17 @@
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.dll
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.pdb
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.dll
+H:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\Master Project\dev\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.csprojResolveAssemblyReference.cache
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\Master Project\dev\NET\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\bin\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework.Interfaces\obj\Debug\OpenMvcPluginFramework.Interfaces.pdb
