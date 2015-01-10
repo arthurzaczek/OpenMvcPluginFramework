@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenMvcPluginFramework\PluginResources\EmbeddedResourceProvider.cs">
+    <Files>
+      <File FileName="OpenMvcPluginFramework\PluginResources\EmbeddedResourceProvider.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\PluginResources\EmbeddedPluginResource.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\RouteHandler\EmbeddedResourceRouteHandler.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\PluginManager.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\PluginResources\ExternalPluginResource.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\ViewEngines\PluginRazorViewEngine.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\ActionFilters\CompoundResultActionFilter.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\ActionFilters\CompoundResult.cs" Line="1" Column="1" />
+      <File FileName="OpenMvcPluginFramework\PluginResources\Helper\AssemblyPathParser.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\Master Project\dev\Mono\OpenMvcPluginFramework\CalendarSite\MyDefaultControllerFactory.cs" line="51" column="1" />
+      <Breakpoint file="D:\Master Project\dev\Mono\OpenMvcPluginFramework\CalendarSite\MyDefaultControllerFactory.cs" line="38" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="CalendarSite\Global.asax.cs" line="63" offsetX="256" offsetY="992" expression="t" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
