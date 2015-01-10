@@ -26,3 +26,10 @@ D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\bin\D
 D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\obj\Debug\OpenMvcPluginFramework.csprojResolveAssemblyReference.cache
 D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\obj\Debug\OpenMvcPluginFramework.dll
 D:\Master Project\dev\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\obj\Debug\OpenMvcPluginFramework.pdb
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\bin\Debug\OpenMvcPluginFramework.dll
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\bin\Debug\OpenMvcPluginFramework.pdb
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\bin\Debug\OpenMvcPluginFramework.Interfaces.dll
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\bin\Debug\OpenMvcPluginFramework.Interfaces.pdb
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\obj\Debug\OpenMvcPluginFramework.csprojResolveAssemblyReference.cache
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\obj\Debug\OpenMvcPluginFramework.dll
+D:\MasterProject\OpenMvcPluginFramework\DotNet\OpenMvcPluginFramework\OpenMvcPluginFramework\obj\Debug\OpenMvcPluginFramework.pdb
