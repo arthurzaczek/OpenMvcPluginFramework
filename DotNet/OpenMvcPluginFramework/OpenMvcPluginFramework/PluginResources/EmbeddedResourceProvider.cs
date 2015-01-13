@@ -13,6 +13,9 @@ using OpenMvcPluginFramework.PluginResources.Helper;
 
 namespace OpenMvcPluginFramework.PluginResources
 {
+    /// <summary>
+    /// Is used to load embedded plugin resources like plugin views where a virtual path is provided.
+    /// </summary>
     public class EmbeddedResourceProvider : VirtualPathProvider
     {
         protected ConcurrentDictionary<string, Assembly> _assembliesByName = new ConcurrentDictionary<string, Assembly>();

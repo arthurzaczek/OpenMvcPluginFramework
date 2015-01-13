@@ -9,6 +9,9 @@ using System.Web.Routing;
 
 namespace OpenMvcPluginFramework.RouteHandler
 {
+    /// <summary>
+    /// Customized RoutHandler for supporting embedded resources in plugins like css or javascript resources. 
+    /// </summary>
     public class EmbeddedResourceRouteHandler : IRouteHandler
     {
         public IHttpHandler GetHttpHandler(RequestContext requestContext)
@@ -17,6 +20,9 @@ namespace OpenMvcPluginFramework.RouteHandler
         }
     }
 
+    /// <summary>
+    /// Customized HttpHandler for supporting embedded resources in plugins like css or javascript resources. 
+    /// </summary>
     public class EmbeddedResourceHttpHandler : IHttpHandler
     {
         private readonly RouteData _routeData;
