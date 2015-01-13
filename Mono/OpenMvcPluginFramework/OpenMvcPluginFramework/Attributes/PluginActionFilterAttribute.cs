@@ -7,6 +7,9 @@ using OpenMvcPluginFramework.Interfaces;
 
 namespace OpenMvcPluginFramework.Attributes
 {
+    /// <summary>
+    /// Is used to apply plugin action filters on controllers.
+    /// </summary>
     public class PluginActionFilterAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)

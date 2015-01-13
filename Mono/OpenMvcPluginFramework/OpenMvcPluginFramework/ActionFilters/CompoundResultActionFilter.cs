@@ -5,6 +5,9 @@ using System.Web.Mvc.Html;
 
 namespace OpenMvcPluginFramework.ActionFilters
 {
+    /// <summary>
+    /// Compound several results to one.
+    /// </summary>
     public class CompoundResultActionFilter : ActionFilterAttribute
     {
         protected string _controller;

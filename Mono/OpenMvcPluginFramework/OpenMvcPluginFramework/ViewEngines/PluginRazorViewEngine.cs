@@ -7,6 +7,9 @@ using System.Web.Mvc;
 
 namespace OpenMvcPluginFramework.ViewEngines
 {
+    /// <summary>
+    /// Customized RazorViewEngine for supporting plugin views. 
+    /// </summary>
     public class PluginRazorViewEngine : RazorViewEngine
     {
         public PluginRazorViewEngine(IList<string> viewLocations)

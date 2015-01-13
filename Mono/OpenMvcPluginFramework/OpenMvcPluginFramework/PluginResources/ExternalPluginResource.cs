@@ -3,6 +3,9 @@ using OpenMvcPluginFramework.Interfaces;
 
 namespace OpenMvcPluginFramework.PluginResources
 {
+    /// <summary>
+    /// Is used for representing external resources like css or javascript files on a webserver.
+    /// </summary>
     public class ExternalPluginResource : IPluginResource
     {
         public ExternalPluginResource(string url)
