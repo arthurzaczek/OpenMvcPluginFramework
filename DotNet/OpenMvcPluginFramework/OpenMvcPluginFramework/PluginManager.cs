@@ -9,5 +9,7 @@ namespace OpenMvcPluginFramework
     public class PluginManager : PluginManagerBase
     {
         public static IPluginManager Instance = new PluginManager();
+
+        private PluginManager() { }
     }
 }

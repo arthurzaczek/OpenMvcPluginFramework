@@ -53,7 +53,7 @@ namespace OpenMvcPluginFramework
         /// <summary>
         /// AutoFac dependency container for resolving third party dependencies
         /// </summary>
-        public virtual IContainer DependencyContainer { get; private set; }
+        public virtual IContainer DependencyContainer { get { return _dependencyCotainer; } }
 
         /// <summary>
         /// Renders plugin css resources.
