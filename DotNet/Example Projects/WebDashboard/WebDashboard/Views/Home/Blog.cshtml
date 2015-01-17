@@ -1,0 +1,10 @@
+﻿@using OpenMvcPluginFramework;
+@using System.Web.Mvc.Html
+@inherits System.Web.Mvc.WebViewPage
+
+@{
+    ViewBag.Title = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ OpenMvcPluginFramework.PluginManager.Instance.Render(Html, "BlogPlugin"); }

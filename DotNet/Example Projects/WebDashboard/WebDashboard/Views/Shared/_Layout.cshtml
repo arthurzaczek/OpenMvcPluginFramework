@@ -1,0 +1,37 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href='/Content/Css/style.css' media='screen' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="~/Content/Scripts/jquery.js"></script>
+    <script type="text/javascript" src="~/Content/Scripts/fancybox/jquery-1.3.2.min.js"></script>
+    @OpenMvcPluginFramework.PluginManager.Instance.RenderCss(Html)
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="container">
+        <div id="header">WebDashboard - Example Project</div>
+        <div id="h_navcontainer">
+            <ul>
+                <li>@Html.ActionLink("Contact", "Index", "Home")</li>
+                <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+                <li>@Html.ActionLink("Photos", "Photo", "Home")</li>
+                <li>@Html.ActionLink("Calendar", "Calendar", "Home")</li>
+            </ul>
+        </div>
+
+        @RenderBody()
+
+    </div>
+    <div id="footer">
+        <div id="footer_left">
+            2015 OpenMvcPluginFramework Example Project
+        </div>
+    </div>
+    @OpenMvcPluginFramework.PluginManager.Instance.RenderScripts(Html)
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿@using System.Web.Mvc.Html
+@inherits System.Web.Mvc.WebViewPage
+
+<div class="BlogContainer">
+    <p>Please enter please your blog entry:</p>
+    @using (@Html.BeginForm("Save","PluginBlog"))
+    {
+        @Html.TextArea("blogEntryText")
+       <input type="submit" value="Save" /> 
+    }
+</div>

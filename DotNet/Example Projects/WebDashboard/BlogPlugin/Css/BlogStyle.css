@@ -1,0 +1,18 @@
+﻿.BlogContainer p {
+    font-size: 1.1em;
+    font-family: Arial;
+}
+
+.BlogContainer textarea {
+    height: 300px;
+    width: 100%;
+}
+
+.BlogContainer input {
+    color:white;
+    background: #666;
+	font-size:12px;
+	float:right;
+    height: 25px;
+    margin: 10px;
+}
