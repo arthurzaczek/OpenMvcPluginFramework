@@ -84,7 +84,9 @@ The default plugin project setup is not building successfully, because the post 
 The post build event is copying the successfully build plugin to the site plugin folder. The build event has to be adjusted
 in following way.
 
-    xcopy "$(ProjectDir)bin\{PluginName}.plugin.dll" "{PluginSiteLocation}bin\Plugins\" /Y /F
+
+        xcopy "$(ProjectDir)bin\{PluginName}.plugin.dll" "{PluginSiteLocation}bin\Plugins\" /Y /F
+
 
 - Register plugin elements
 The created views, actions, scirpts and stylesheets have to be register as element, so these resources can be used in the 
@@ -92,18 +94,18 @@ site application. Please take care that scripts, stylesheets and views are marke
 The following lines has to be adjusted in the Plugin class.
 
 
-    [Export(typeof(IPlugin))]
-    [PluginMetaData("Plugin", "Demo Example")] // Set plugin name for access
-    public class Plugin: PluginBase
-    {
-        public Plugin()
+        [Export(typeof(IPlugin))]
+        [PluginMetaData("Plugin", "Demo Example")] // Set plugin name for access
+        public class Plugin: PluginBase
         {
-            //Replace the examples with actual plugin resources
-            base.AddScriptResource(new EmbeddedPluginResource(GetResourceLocation("Scripts", "script1.js")));
-            base.AddCssResource(new EmbeddedPluginResource(GetResourceLocation("Css", "style1.css")));
-            base.AddElement(new PluginElement() { Id = "Home", Controller = "PluginHome", Action = "Index", ActionFilter = new NullActionFilter() });
+                public Plugin()
+                {
+                //Replace the examples with actual plugin resources
+                base.AddScriptResource(new EmbeddedPluginResource(GetResourceLocation("Scripts", "script1.js")));
+                base.AddCssResource(new EmbeddedPluginResource(GetResourceLocation("Css", "style1.css")));
+                base.AddElement(new PluginElement() { Id = "Home", Controller = "PluginHome", Action = "Index",                       ActionFilter = new NullActionFilter() });
+                }
         }
-    }
 
 ## GetStarted
 
