@@ -110,7 +110,10 @@ The following lines has to be adjusted in the Plugin class.
 ## GetStarted
 
 - Install Templates
-The templaes located in GitHub repository under DotNet/Visul Studio Templates/ have tobe copied to ...\Documents\Visual Studio 2012\Templates\ProjectTemplates.
+The templaes located in GitHub repository under DotNet/Visul Studio Templates/ have to be copied to
+
+        ...\Documents\Visual Studio 2012\Templates\ProjectTemplates.
+
 If templates are copied to this location they can be used via Visual Studio to create new projects.
 
 - Example Project WebDashboard
