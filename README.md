@@ -58,7 +58,7 @@ The following code has to be adjusted and added to the Global.asax.cs file in th
 Plugin assemblies located in \bin\Plugins are loaded automatically during start up. If a plugin should be 
 used the Render method of the PluginManager class has to be called in the dedicated view. See example in Index.cshtml.
 
-@{ OpenMvcPluginFramework.PluginManager.Instance.Render(Html, "Plugin"); }
+        @{ OpenMvcPluginFramework.PluginManager.Instance.Render(Html, "Plugin"); }
 
 ## MvcPluginProject
 The MvcPluginProject template provides a basis setup for creating an OpenMvcPluginFramework plugin.
@@ -87,7 +87,7 @@ site application. Please take care that scripts, stylesheets and views are marke
 The following lines has to be adjusted in the Plugin class.
 
     [Export(typeof(IPlugin))]
-    [PluginMetaData("Plugin", "Demo Example")] <-- Set plugin name for access
+    [PluginMetaData("Plugin", "Demo Example")] // Set plugin name for access
     public class Plugin: PluginBase
     {
         public Plugin()
