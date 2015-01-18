@@ -58,7 +58,9 @@ The following code has to be adjusted and added to the Global.asax.cs file in th
 Plugin assemblies located in \bin\Plugins are loaded automatically during start up. If a plugin should be 
 used the Render method of the PluginManager class has to be called in the dedicated view. See example in Index.cshtml.
 
+
         @{ OpenMvcPluginFramework.PluginManager.Instance.Render(Html, "Plugin"); }
+
 
 ## MvcPluginProject
 The MvcPluginProject template provides a basis setup for creating an OpenMvcPluginFramework plugin.
@@ -69,8 +71,11 @@ The following adjustments are necessary to run successfully a plugin.
 It is necessary that the plugin assembly has a .plugin postfix. That mean in the project properties in section Application
 the assembly name and namespace has to be adjusted to following naming convention.
 
-AssemblyName: {PluginName}.plugin.dll
-Namespace: {PluginName}.plugin.{namespacename}
+
+        {PluginName}.plugin.dll
+        
+        {PluginName}.plugin.{namespacename}
+
 
 It .plugin postfix is necessary to recognize during the plugin loading the relevent assemblies.
 
@@ -85,6 +90,7 @@ in following way.
 The created views, actions, scirpts and stylesheets have to be register as element, so these resources can be used in the 
 site application. Please take care that scripts, stylesheets and views are marked as embedded resources. 
 The following lines has to be adjusted in the Plugin class.
+
 
     [Export(typeof(IPlugin))]
     [PluginMetaData("Plugin", "Demo Example")] // Set plugin name for access
