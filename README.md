@@ -38,7 +38,7 @@ If some of the plugins are depending of funcationality provided by the site appl
 The framework is using the AutoFac dependency injection framework for resloving these dependencies.
 The following code has to be adjusted and added to the Global.asax.cs file in the site application.
 
- protected void Application_Start()
+        protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
 
@@ -79,7 +79,7 @@ The default plugin project setup is not building successfully, because the post 
 The post build event is copying the successfully build plugin to the site plugin folder. The build event has to be adjusted
 in following way.
 
-xcopy "$(ProjectDir)bin\{PluginName}.plugin.dll" "{PluginSiteLocation}bin\Plugins\" /Y /F
+    xcopy "$(ProjectDir)bin\{PluginName}.plugin.dll" "{PluginSiteLocation}bin\Plugins\" /Y /F
 
 - Register plugin elements
 The created views, actions, scirpts and stylesheets have to be register as element, so these resources can be used in the 
