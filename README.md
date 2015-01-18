@@ -17,11 +17,13 @@ in the concept.
 The framework consits of following components:
 
 - OpenMvcPluginFramework assemblies:
+
 The framework consists of two assemblies, the OpenMvcPluginFramework.dll and the OpenMvcPluginFramework.Interfaces assembly.
 The OpenMvcPluginFramework.Inferfaces assembly includes are Interfaces and Data Transfer Objects, which are used by the framework.
 The OpenMvcPluginFramework assembly includes the actual implement of the OpenMvcPluginFramework.
 
 - Visual Studio 2012 Projekt Templates
+
 The framework provides two project templates, the MvcPluginProject and the MvcPluginSiteProject template. The MvcPluginProject template 
 is used to create an OpenMvcPluginFramework Plugin. The templates provides a default configuration, which can be easly adjusted.
 The MvcPluginSiteProject template provides a basis setup for using created plugin via the framework.
@@ -34,6 +36,7 @@ The MvcPluginSiteProject template provides a basis setup for using OpenMvcPlugin
 The following adjustments are necessary to run the hosting application successfully:
 
 - Register dependencies for loaded plugins
+
 If some of the plugins are depending of funcationality provided by the site application, the dependencies have to be registered.
 The framework is using the AutoFac dependency injection framework for resloving these dependencies.
 The following code has to be adjusted and added to the Global.asax.cs file in the site application.
@@ -55,6 +58,7 @@ The following code has to be adjusted and added to the Global.asax.cs file in th
         }
 
 - Render loaded plugins
+
 Plugin assemblies located in \bin\Plugins are loaded automatically during start up. If a plugin should be 
 used the Render method of the PluginManager class has to be called in the dedicated view. See example in Index.cshtml.
 
@@ -68,6 +72,7 @@ The MvcPluginProject template provides a basis setup for creating an OpenMvcPlug
 The following adjustments are necessary to run successfully a plugin.
 
 - Adjust assembly naming
+
 It is necessary that the plugin assembly has a .plugin postfix. That mean in the project properties in section Application
 the assembly name and namespace has to be adjusted to following naming convention.
 
@@ -80,6 +85,7 @@ the assembly name and namespace has to be adjusted to following naming conventio
 It .plugin postfix is necessary to recognize during the plugin loading the relevent assemblies.
 
 - Adjust build event
+
 The default plugin project setup is not building successfully, because the post build event has to be adjusted.
 The post build event is copying the successfully build plugin to the site plugin folder. The build event has to be adjusted
 in following way.
@@ -89,6 +95,7 @@ in following way.
 
 
 - Register plugin elements
+
 The created views, actions, scirpts and stylesheets have to be register as element, so these resources can be used in the 
 site application. Please take care that scripts, stylesheets and views are marked as embedded resources. 
 The following lines has to be adjusted in the Plugin class.
@@ -110,6 +117,7 @@ The following lines has to be adjusted in the Plugin class.
 ## GetStarted
 
 - Install Templates
+
 The templaes located in GitHub repository under DotNet/Visul Studio Templates/ have to be copied to
 
         ...\Documents\Visual Studio 2012\Templates\ProjectTemplates.
@@ -117,5 +125,6 @@ The templaes located in GitHub repository under DotNet/Visul Studio Templates/ h
 If templates are copied to this location they can be used via Visual Studio to create new projects.
 
 - Example Project WebDashboard
+
 There is example project located in GitHub repository unter DotNet/Examples/. The project is called WebDashboard and is 
 illustrating the used of the OpenMvcPluginFramework. Please take a look.
