@@ -1,12 +1,12 @@
 # OpenMvcPluginFramework
 
-Table of Content:
+##Table of Content:
 1. General
 2. MvcPluginSiteProject
 3. MvcPluginProject
 4. GetStarted
 
-1. General
+## General
 
 The OpenMvcPluginFramework is developed to support building modular web application with ASP.NET MVC 4.
 The concept is simple, the user is creating via the framework plugins, which can dynamically loaded by a hosting application
@@ -27,7 +27,7 @@ is used to create an OpenMvcPluginFramework Plugin. The templates provides a def
 The MvcPluginSiteProject template provides a basis setup for using created plugin via the framework.
 
 
-2. MvcPluginSiteProject
+## MvcPluginSiteProject
 
 The MvcPluginSiteProject template provides a basis setup for using OpenMvcPluginFramework plugins.
 
@@ -60,7 +60,7 @@ used the Render method of the PluginManager class has to be called in the dedica
 
 @{ OpenMvcPluginFramework.PluginManager.Instance.Render(Html, "Plugin"); }
 
-3. MvcPluginProject
+## MvcPluginProject
 The MvcPluginProject template provides a basis setup for creating an OpenMvcPluginFramework plugin.
 
 The following adjustments are necessary to run successfully a plugin.
@@ -99,7 +99,7 @@ The following lines has to be adjusted in the Plugin class.
         }
     }
 
-4. GetStarted
+## GetStarted
 
 - Install Templates
 The templaes located in GitHub repository under DotNet/Visul Studio Templates/ have tobe copied to ...\Documents\Visual Studio 2012\Templates\ProjectTemplates.
