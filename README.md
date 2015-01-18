@@ -11,22 +11,18 @@
 The OpenMvcPluginFramework is developed to support building modular web application with ASP.NET MVC 4.
 The concept is simple, the user is creating via the framework plugins, which can dynamically loaded by a hosting application
 called site. The site is providing storage, authentication or third party services, which are abstracted via interfaces and used
-by the plugins. The independed plugin development with losely coupling via interfaces to necessary core functionality is a big advantage
-in the concept.
+by the plugins. The independed plugin development with losely coupling via interfaces to necessary core functionality is a big advantage in the concept.
 
 The framework consits of following components:
 
 - OpenMvcPluginFramework assemblies:
 
 The framework consists of two assemblies, the OpenMvcPluginFramework.dll and the OpenMvcPluginFramework.Interfaces assembly.
-The OpenMvcPluginFramework.Inferfaces assembly includes are Interfaces and Data Transfer Objects, which are used by the framework.
-The OpenMvcPluginFramework assembly includes the actual implement of the OpenMvcPluginFramework.
+The OpenMvcPluginFramework.Inferfaces assembly includes are Interfaces and Data Transfer Objects, which are used by the framework. The OpenMvcPluginFramework assembly includes the actual implement of the OpenMvcPluginFramework.
 
 - Visual Studio 2012 Projekt Templates
 
-The framework provides two project templates, the MvcPluginProject and the MvcPluginSiteProject template. The MvcPluginProject template 
-is used to create an OpenMvcPluginFramework Plugin. The templates provides a default configuration, which can be easly adjusted.
-The MvcPluginSiteProject template provides a basis setup for using created plugin via the framework.
+The framework provides two project templates, the MvcPluginProject and the MvcPluginSiteProject template. The MvcPluginProject template is used to create an OpenMvcPluginFramework Plugin. The templates provides a default configuration, which can be easly adjusted. The MvcPluginSiteProject template provides a basis setup for using created plugin via the framework.
 
 
 ## MvcPluginSiteProject
@@ -127,4 +123,4 @@ If templates are copied to this location they can be used via Visual Studio to c
 - Example Project WebDashboard
 
 There is example project located in GitHub repository unter DotNet/Examples/. The project is called WebDashboard and is 
-illustrating the used of the OpenMvcPluginFramework. Please take a look.
+illustrating the usage of the OpenMvcPluginFramework. Please take a look.
