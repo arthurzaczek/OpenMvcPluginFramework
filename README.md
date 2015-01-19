@@ -20,7 +20,7 @@ The framework consits of following components:
 The framework consists of two assemblies, the OpenMvcPluginFramework.dll and the OpenMvcPluginFramework.Interfaces assembly.
 The OpenMvcPluginFramework.Inferfaces assembly includes are Interfaces and Data Transfer Objects, which are used by the framework. The OpenMvcPluginFramework assembly includes the actual implement of the OpenMvcPluginFramework.
 
-- Visual Studio 2012 Projekt Templates
+- Visual Studio 2012 Projekt Templates:
 
 The framework provides two project templates, the MvcPluginProject and the MvcPluginSiteProject template. The MvcPluginProject template is used to create an OpenMvcPluginFramework Plugin. The templates provides a default configuration, which can be easly adjusted. The MvcPluginSiteProject template provides a basis setup for using created plugin via the framework.
 
