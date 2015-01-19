@@ -78,7 +78,7 @@ the assembly name and namespace has to be adjusted to following naming conventio
         {PluginName}.plugin.{namespacename}
 
 
-It .plugin postfix is necessary to recognize during the plugin loading the relevent assemblies.
+The .plugin postfix is necessary to recognize during the plugin loading the relevent assemblies.
 
 #### Adjust build event
 
